@@ -20,4 +20,4 @@ $(window).load(function() {
         animatePoints();
       }
     });
-}
+});
