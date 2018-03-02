@@ -104,6 +104,7 @@ var createSongRow = function(songNumber, songName, songLength) {
      $row.find('.song-item-number').click(clickHandler);
      $row.hover(onHover, offHover);
      return $row;
+     
 };
 
 var $albumTitle = $('.album-view-title');
@@ -113,7 +114,6 @@ var $albumImage = $('.album-cover-art');
 var $albumSongList = $('.album-view-song-list');
 
 var setCurrentAlbum = function(album) {
-
     $albumTitle.text(album.title);
     $albumArtist.text(album.artist);
     $albumReleaseInfo.text(album.year + ' ' + album.label);
